@@ -8,3 +8,11 @@ def vista_A_Uno(request):
     
     """
     return HttpResponse(vA)
+
+
+def vista_B_Uno(request):
+
+    vB="""
+        <h1>b</h1>
+        """
+    return HttpResponse(vB)
