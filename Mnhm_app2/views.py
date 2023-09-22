@@ -6,3 +6,10 @@ def vista_A_Dos(request):
         <h1>c</h1>
         """
     return HttpResponse(vC)
+
+def vista_B_Dos(request):
+    vD="""
+        <h1>d</h1>
+
+        """
+    return HttpResponse(vD)

@@ -20,5 +20,6 @@ from Mnhm_app2 import views as v2
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('app2_vista1/',v2.vista_A_Dos)
+    path('app2_vista1/',v2.vista_A_Dos),
+    path('app2_vista2/',v2.vista_B_Dos)
 ]
